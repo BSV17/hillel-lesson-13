@@ -1,0 +1,44 @@
+.header {
+    padding: 25px 0;
+    border-bottom: 1px solid #CCCCCC;
+    
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__navigation-list {
+        display: flex;
+        margin-left: 50px;
+    }
+
+    &__navigation-item {
+        margin-left: 52px;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    &__navigation-link {
+        text-decoration: none;
+        font-size: 15px;
+        line-height: 20px;
+        color: #000;
+    }
+
+    &__controls {
+        display: flex;
+        margin-left: auto;
+        
+
+        .button {
+            display: block;
+
+            &:not(:first-of-type) {
+                margin-left: 10px;
+            }
+        }
+    }
+
+}

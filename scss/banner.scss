@@ -1,0 +1,49 @@
+.banner {
+    padding: 130px 0 172px 0;
+
+    &__container {
+        display: flex;
+
+    }
+
+    &__heading {
+        font-weight: 600;
+        font-size: 65px;
+        line-height: 70px;
+        max-width: 552px;
+        margin-bottom: 50px;
+    }
+
+    &__description {
+        font-size: 25px;
+        line-height: 35px;
+        max-width: 470px;
+        margin-bottom: 50px;
+    }
+
+    &__image {
+        align-self: center;
+        max-width: 750px;
+    }
+
+    &__controls {
+        display: flex;
+        margin-bottom: 24px;
+
+        .button {
+            display: block;
+            width: 160px;
+            text-align: center;
+            
+            &:not(:first-of-type) {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    &__note {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+}
