@@ -1,0 +1,29 @@
+.review {
+    padding: 54px 0 104px 0;
+    background-color: #C9E8F2;
+
+    &__container {
+        display: flex;
+    }
+
+    &__information {
+        margin-top: 10px;
+    }
+
+    &__information-text {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 22px;
+    }
+
+    &__information-person {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 7px;
+    }
+
+    &__author-photo {
+        margin-left: 86px;
+    }
+
+}

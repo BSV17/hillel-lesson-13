@@ -273,4 +273,28 @@ body {
   color: #000;
 }
 
+.review {
+  padding: 54px 0 104px 0;
+  background-color: #C9E8F2;
+}
+.review__container {
+  display: flex;
+}
+.review__information {
+  margin-top: 10px;
+}
+.review__information-text {
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 22px;
+}
+.review__information-person {
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 7px;
+}
+.review__author-photo {
+  margin-left: 86px;
+}
+
 /*# sourceMappingURL=style.css.map */
