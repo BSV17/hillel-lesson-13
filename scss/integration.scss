@@ -1,0 +1,36 @@
+.integration {
+    padding: 164px 0;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        max-width: 790px;
+        font-weight: 600;
+        font-size: 65px;
+        line-height: 75px;
+        text-align: center;
+    }
+
+    &__description {
+        max-width: 540px;
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
+    &__image {
+        display: block;
+        margin-bottom: 32px;
+    }
+
+    &__button {
+        display: block;
+        width: max-content;
+        padding: 21px 20px;
+    }
+}

@@ -326,4 +326,36 @@ body {
   margin-bottom: 14px;
 }
 
+.integration {
+  padding: 164px 0;
+}
+.integration__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.integration__title {
+  max-width: 790px;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 75px;
+  text-align: center;
+}
+.integration__description {
+  max-width: 540px;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.integration__image {
+  display: block;
+  margin-bottom: 32px;
+}
+.integration__button {
+  display: block;
+  width: max-content;
+  padding: 21px 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
