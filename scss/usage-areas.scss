@@ -1,0 +1,51 @@
+.usage-areas {
+    padding: 120px 0 71px 0;
+    background-color: #FFF8E4;
+
+    &__container {
+        text-align: center;
+        padding: 0 40px;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 80px;
+    }
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        max-width: 330px;
+        margin: 0 0 74px 110px;
+
+        &:first-child,
+        &:nth-child(4) {
+            margin-left: 0;
+        }
+    }
+
+    &__item-image {
+        margin-bottom: 26px;
+    }
+
+    &__item-title {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    &__item-description {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    &__item-link {
+        color: #000;
+    }
+}

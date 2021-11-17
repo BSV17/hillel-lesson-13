@@ -89,7 +89,7 @@ body {
 .banner__container {
   display: flex;
 }
-.banner__heading {
+.banner__title {
   font-weight: 600;
   font-size: 65px;
   line-height: 70px;
@@ -133,7 +133,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.companies__heading {
+.companies__title {
   font-weight: 600;
   font-size: 50px;
   line-height: 60px;
@@ -189,6 +189,48 @@ body {
 }
 .benefits__info:last-child, .benefits__image:last-child {
   margin-left: 138px;
+}
+
+.usage-areas {
+  padding: 120px 0 71px 0;
+  background-color: #FFF8E4;
+}
+.usage-areas__container {
+  text-align: center;
+  padding: 0 40px;
+}
+.usage-areas__title {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 80px;
+}
+.usage-areas__items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.usage-areas__item {
+  max-width: 330px;
+  margin: 0 0 74px 110px;
+}
+.usage-areas__item:first-child, .usage-areas__item:nth-child(4) {
+  margin-left: 0;
+}
+.usage-areas__item-image {
+  margin-bottom: 26px;
+}
+.usage-areas__item-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+.usage-areas__item-description {
+  font-size: 18px;
+  line-height: 25px;
+}
+.usage-areas__item-link {
+  color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */
