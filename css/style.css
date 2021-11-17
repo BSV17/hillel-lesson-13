@@ -325,6 +325,11 @@ body {
 .rate__company-rate-level {
   margin-bottom: 14px;
 }
+.rate__company-comment {
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.75px;
+}
 
 .integration {
   padding: 164px 0;
@@ -356,6 +361,37 @@ body {
   display: block;
   width: max-content;
   padding: 21px 20px;
+}
+
+.cta {
+  background-color: #FF9C7D;
+  padding: 120px 0 160px 0;
+}
+.cta__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cta__title {
+  max-width: 784px;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 75px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.cta__text {
+  max-width: 438px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 54px;
+  text-align: center;
+}
+.cta__button {
+  display: block;
+  width: max-content;
+  background-color: #000;
+  border-color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */
