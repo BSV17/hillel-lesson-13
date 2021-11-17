@@ -10,30 +10,30 @@
         }
     }
 
-    &__info {
+    &__item-info {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
-    &__title {
+    &__item-title {
         font-weight: 600;
         font-size: 50px;
         line-height: 60px;
         margin-bottom: 30px;
     }
     
-    &__description {
+    &__item-description {
         font-size: 20px;
         line-height: 30px;
         margin-bottom: 30px;
     }
 
-    &__description-link {
+    &__item-description-link {
         color: #000;
     }
 
-    &__link {
+    &__item-link {
         text-decoration: none;
         font-weight: 600;
         font-size: 20px;
@@ -41,8 +41,8 @@
         color: #000;
     }
 
-    &__info,
-    &__image {
+    &__item-info,
+    &__item-image {
         &:last-child {
             margin-left: 138px;
         }
