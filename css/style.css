@@ -312,9 +312,8 @@ body {
   margin-left: 56px;
 }
 .rate__company {
-  padding: 30px 0 0 70px;
+  padding: 30px 0 30px 70px;
   border-left: 1px solid #000;
-  height: 176px;
 }
 .rate__company:last-child {
   border: none;
@@ -455,6 +454,9 @@ body {
 }
 .footer__navigation-item-list-link-wrapper {
   margin-bottom: 14px;
+}
+.footer__navigation-item-list-link-wrapper:last-child {
+  margin-bottom: 0;
 }
 .footer__bottom-bar {
   padding-top: 52px;
