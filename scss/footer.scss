@@ -1,0 +1,98 @@
+.footer {
+    padding: 92px 0 48px 0;
+    background-color: #EEEEEE;
+
+    &__body {
+        padding-bottom: 94px;
+        border-bottom: 1px solid #000;
+        display: flex;
+    }
+
+    &__navigation {
+        display: flex;
+    }
+
+    &__navigation-item {
+        margin-left: 50px;
+        width: 170px;
+
+        &:first-child {
+            margin-left: 140px;
+        }
+    }
+
+    &__case-studies-title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 28px;
+    }
+
+    &__case-studies-image {
+        margin-bottom: 30px;
+    }
+
+    &__case-studies-company-logo {
+        display: block;
+        margin-bottom: 10px;
+        height: 32px;
+    }
+
+    &__case-studies-article {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 16px;
+        max-width: 290px ;
+    }
+
+    &__case-studies-link {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000;
+    }
+
+    &__navigation-item-title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    &__navigation-item-list-link {
+        text-decoration: none;
+        font-size: 15px;
+        line-height: 15px;
+        color: #000;
+    }
+
+    &__navigation-item-list-link-wrapper {
+        margin-bottom: 14px;
+    }
+
+    &__bottom-bar {
+        padding-top: 52px;
+    }
+
+    &__bottom-bar-container {
+        display: flex;
+    }
+
+    &__bottom-bar-image {
+        height: 21px;
+    }
+
+    &__bottom-bar-text {
+        font-size: 12px;
+        line-height: 15px;
+        max-width: 300px;
+        margin-left: 14px;
+    }
+
+    &__bottom-bar-copyright {
+        font-size: 12px;
+        line-height: 15px;
+        margin: 0 75px 0 auto;
+    }
+}
