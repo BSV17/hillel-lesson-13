@@ -23,21 +23,23 @@ body {
 }
 
 .container {
-  width: 1290px;
+  max-width: 1290px;
   margin: 0 auto;
 }
 
 .header {
-  padding: 25px 0;
+  padding: 25px 25px;
   border-bottom: 1px solid #CCCCCC;
 }
 .header__container {
   display: flex;
   align-items: center;
 }
+.header__navigation {
+  margin-left: 50px;
+}
 .header__navigation-list {
   display: flex;
-  margin-left: 50px;
 }
 .header__navigation-item {
   margin-left: 52px;
@@ -61,7 +63,50 @@ body {
 .header__controls .button:not(:first-of-type) {
   margin-left: 10px;
 }
-
+@media (max-width: 1290px) {
+  .header__container {
+    padding: 0 20px;
+    flex-wrap: wrap;
+  }
+  .header__navigation {
+    margin-left: auto;
+    padding: 16px;
+  }
+  .header__navigation-item {
+    margin-left: 20px;
+  }
+  .header__controls {
+    margin-right: auto;
+  }
+}
+@media (max-width: 768px) {
+  .header__container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .header__navigation {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header__navigation-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .header__navigation-item {
+    margin-top: 20px;
+  }
+  .header__controls {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    max-width: 350px;
+  }
+  .header__controls .button:not(:first-of-type) {
+    margin-top: 15px;
+    margin-left: 0;
+  }
+}
 .button {
   text-decoration: none;
   font-weight: 600;

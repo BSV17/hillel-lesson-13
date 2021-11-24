@@ -1,5 +1,5 @@
 .header {
-    padding: 25px 0;
+    padding: 25px 25px;
     border-bottom: 1px solid #CCCCCC;
     
     &__container {
@@ -7,9 +7,12 @@
         align-items: center;
     }
 
+    &__navigation {
+        margin-left: 50px;
+    }
+
     &__navigation-list {
         display: flex;
-        margin-left: 50px;
     }
 
     &__navigation-item {
@@ -39,5 +42,65 @@
                 margin-left: 10px;
             }
         }
+    }
+
+    @media (max-width: 1290px) {
+        
+        &__container {
+            padding: 0 20px;
+            flex-wrap: wrap;
+        }
+
+        &__navigation {
+            margin-left: auto;
+            padding: 16px;
+        }
+
+        &__navigation-item {
+            margin-left: 20px;
+        }
+
+        &__controls {
+            margin-right: auto;
+        }
+    }
+
+    @media (max-width: 768px) {
+        &__container {
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+        }
+        &__navigation {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &__navigation-list {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__navigation-item {
+            margin-top: 20px;
+        }
+
+        &__controls {
+            flex-direction: column;
+            width: 100%;
+            text-align: center;
+            max-width: 350px;
+
+            .button {
+                &:not(:first-of-type) {
+                    margin-top: 15px;
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 320px) {
+        
     }
 }
