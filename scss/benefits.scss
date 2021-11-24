@@ -43,8 +43,43 @@
 
     &__item-info,
     &__item-image {
+
         &:last-child {
             margin-left: 138px;
+        }
+    }
+
+    @media (max-width: 1290px) { 
+        padding: 70px 0 80px 0;
+
+        &__item-title {
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        &__item {
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: center;
+            margin-bottom: 70px;
+        }
+
+        &__item-image {
+            width: 100%;
+            max-width: 632px;
+
+            &:last-child {
+                margin-left: 0;
+            }
+        }
+
+        &__item-info {
+            margin-bottom: 40px;
+
+            &:last-child {
+                margin-left: 0;
+                order: -1;
+            }
         }
     }
 }

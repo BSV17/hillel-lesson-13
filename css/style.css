@@ -304,6 +304,35 @@ body {
 .benefits__item-info:last-child, .benefits__item-image:last-child {
   margin-left: 138px;
 }
+@media (max-width: 1290px) {
+  .benefits {
+    padding: 70px 0 80px 0;
+  }
+  .benefits__item-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .benefits__item {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 70px;
+  }
+  .benefits__item-image {
+    width: 100%;
+    max-width: 632px;
+  }
+  .benefits__item-image:last-child {
+    margin-left: 0;
+  }
+  .benefits__item-info {
+    margin-bottom: 40px;
+  }
+  .benefits__item-info:last-child {
+    margin-left: 0;
+    order: -1;
+  }
+}
 
 .usage-areas {
   padding: 120px 0 71px 0;
