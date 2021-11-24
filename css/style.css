@@ -21,10 +21,26 @@
 body {
   font-family: "Graphik LCG", sans-serif;
 }
+@media (max-width: 768px) {
+  body {
+    min-width: 320px;
+  }
+}
 
 .container {
   max-width: 1290px;
   margin: 0 auto;
+}
+@media (max-width: 1290px) {
+  .container {
+    padding: 0 20px;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    text-align: center;
+  }
 }
 
 .header {
@@ -64,10 +80,6 @@ body {
   margin-left: 10px;
 }
 @media (max-width: 1290px) {
-  .header__container {
-    padding: 0 20px;
-    flex-wrap: wrap;
-  }
   .header__navigation {
     margin-left: auto;
     padding: 16px;
@@ -86,8 +98,7 @@ body {
     padding: 0;
   }
   .header__navigation {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
   .header__navigation-list {
     flex-wrap: wrap;
@@ -103,10 +114,11 @@ body {
     max-width: 350px;
   }
   .header__controls .button:not(:first-of-type) {
-    margin-top: 15px;
+    margin-top: 16px;
     margin-left: 0;
   }
 }
+
 .button {
   text-decoration: none;
   font-weight: 600;
@@ -166,6 +178,46 @@ body {
 .banner__note {
   font-size: 15px;
   line-height: 25px;
+}
+@media (max-width: 1290px) {
+  .banner__info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+  }
+  .banner__image {
+    width: 100%;
+    margin-top: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .banner {
+    padding: 50px 0 70px 0;
+  }
+  .banner__title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .banner__description {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .banner__controls {
+    flex-direction: column;
+    max-width: 350px;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+  .banner__controls .button {
+    width: 100%;
+  }
+  .banner__controls .button:not(:first-of-type) {
+    margin-top: 16px;
+    margin-left: 0;
+  }
 }
 
 .companies {

@@ -44,13 +44,7 @@
         }
     }
 
-    @media (max-width: 1290px) {
-        
-        &__container {
-            padding: 0 20px;
-            flex-wrap: wrap;
-        }
-
+    @media (max-width: 1290px) { 
         &__navigation {
             margin-left: auto;
             padding: 16px;
@@ -71,9 +65,9 @@
             align-items: center;
             padding: 0;
         }
+        
         &__navigation {
-            margin-left: auto;
-            margin-right: auto;
+            margin: 0 auto;
         }
 
         &__navigation-list {
@@ -93,14 +87,10 @@
 
             .button {
                 &:not(:first-of-type) {
-                    margin-top: 15px;
+                    margin-top: 16px;
                     margin-left: 0;
                 }
             }
         }
-    }
-
-    @media (max-width: 320px) {
-        
     }
 }
