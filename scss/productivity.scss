@@ -52,6 +52,7 @@
             text-align: center;
             font-size: 40px;
             line-height: 50px;
+            margin-bottom: 50px;
         }
 
         &__item-image {
@@ -68,6 +69,13 @@
         &__items {
             flex-wrap: wrap;
             justify-content: center;
+        }
+
+        &__item {
+            margin: 16px;
+            &:first-child {
+                margin-left: 16px;
+            }
         }
     }
 }
