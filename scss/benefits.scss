@@ -22,7 +22,7 @@
         line-height: 60px;
         margin-bottom: 30px;
     }
-    
+
     &__item-description {
         font-size: 20px;
         line-height: 30px;
@@ -43,13 +43,12 @@
 
     &__item-info,
     &__item-image {
-
         &:last-child {
             margin-left: 138px;
         }
     }
 
-    @media (max-width: 1290px) { 
+    @media (max-width: 1290px) {
         padding: 70px 0 80px 0;
 
         &__item-title {
