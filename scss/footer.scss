@@ -1,6 +1,6 @@
 .footer {
     padding: 92px 0 48px 0;
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
 
     &__body {
         padding-bottom: 94px;
@@ -42,7 +42,7 @@
         font-size: 20px;
         line-height: 30px;
         margin-bottom: 16px;
-        max-width: 290px ;
+        max-width: 290px;
     }
 
     &__case-studies-link {
@@ -98,5 +98,71 @@
         font-size: 12px;
         line-height: 15px;
         margin: 0 75px 0 auto;
+    }
+
+    @media (max-width: 1290px) {
+        padding: 60px 0 40px;
+
+        &__body {
+            padding-bottom: 60px;
+        }
+
+        &__navigation {
+            flex-wrap: wrap;
+            margin-left: 20px;
+        }
+
+        &__navigation-item {
+            margin: 20px;
+            width: 170px;
+
+            &:first-child {
+                margin-left: 20px;
+            }
+        }
+
+        &__bottom-bar-copyright {
+            margin-right: 0;
+        }
+    }
+
+    @media (max-width: 768px) {
+        &__body {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__case-studies {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        &__case-studies-image {
+            width: 100%;
+        }
+
+        &__case-studies-company-logo {
+            max-width: 83px;
+        }
+
+        &__navigation {
+            justify-content: center;
+        }
+
+        &__bottom-bar-container {
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        &__bottom-bar-image,
+        &__bottom-bar-text {
+            margin-bottom: 20px;
+        }
+
+        &__bottom-bar-copyright {
+            margin: 0;
+        }
     }
 }
