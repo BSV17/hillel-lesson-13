@@ -48,4 +48,26 @@
     &__item-link {
         color: #000;
     }
+
+    @media (max-width: 1290px) {
+        padding: 70px 0 50px 0;
+
+        &__title {
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        &__items {
+            justify-content: center;
+        }
+
+        &__item {
+            margin: 0 26px 60px 26px;
+
+            &:first-child,
+            &:nth-child(4) {
+                margin-left: 26px;
+            }
+        }
+    }
 }

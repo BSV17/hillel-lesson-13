@@ -375,6 +375,24 @@ body {
 .usage-areas__item-link {
   color: #000;
 }
+@media (max-width: 1290px) {
+  .usage-areas {
+    padding: 70px 0 50px 0;
+  }
+  .usage-areas__title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .usage-areas__items {
+    justify-content: center;
+  }
+  .usage-areas__item {
+    margin: 0 26px 60px 26px;
+  }
+  .usage-areas__item:first-child, .usage-areas__item:nth-child(4) {
+    margin-left: 26px;
+  }
+}
 
 .productivity {
   padding: 154px 0 187px 0;
